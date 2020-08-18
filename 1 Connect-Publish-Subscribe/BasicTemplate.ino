@@ -9,7 +9,8 @@ void setup() {
   Serial.begin(9600);
   connectWiFi();
   connectAWS();
-  AWSIoTCore.publish("esp32pub","Hello from ESP32!");
+  
+  //AWSIoTCore.publish("esp32pub","Hello from ESP32!");
 }
 
 void loop() {
